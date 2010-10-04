@@ -30,6 +30,7 @@ module Paperclip
     end
 
     def self.make file, options = {}, attachment = nil
+      debugger
       new(file, options, attachment).make
     end
   end
